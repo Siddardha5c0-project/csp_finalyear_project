@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>AGROADVISOR</title>
+  <link rel="stylesheet" href="{{url_for('static',filename='style/myhome.css')}}">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>AGRO ADVISOR</h1>
+    <p style="color:black;">
+    <pre>AGROADVISOR warmly welcomes you to our website! 
+      We genuinely hope your farming endeavors are thriving. Our mission is to elevate your crop cultivation 
+      practices by offering tailored suggestions, treating you with utmost respect and care.
+
+      We recommend crops based on your soil's nutrient composition, a potent method for optimizing yields. Understanding
+      your soil's profile is crucial, so we encourage soil testing. Our team eagerly awaits your details to provide
+      personalized crop recommendations and unwavering support.</pre>
+    </p>
+    <br>
+    <h3 style="color: black;">Let's go Farmers </h3>
+    <br>
+    <h2 style="color: black;">Click this button for Crop recommandation</h2>
+  </main>
+  <form action="/Predict">
+    <input type="submit" id="Predict" name="Predict" action="/Predict" value="Predict">
+  </form>
+</body>
+
+</html>
